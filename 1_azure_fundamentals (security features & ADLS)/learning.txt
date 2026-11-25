@@ -1,0 +1,18 @@
+Daily learning update – Wed 25 Nov
+
+1. Revision (previous month's topics)
+Revised the major concepts of Databricks, dbt, Snowflake and Airflow.
+
+2. Git & GitHub for data engineering
+Explored how Git and GitHub are used in data engineering: version control for pipeline code, SQL and notebooks, branching, pull requests and code review.
+
+3. Started Azure – account setup and security
+- Created my Azure account and went through the portal UI
+- Azure hierarchy: tenant (tenant ID) → management groups → subscriptions → resource groups → resources
+- Microsoft Entra ID for identity and authentication
+- RBAC for authorisation: roles, scopes and least-privilege access
+- Managed identity vs service principal, and when to use each for service-to-service access
+
+4. Azure storage
+- Blob Storage: storage accounts, containers and blobs
+- ADLS Gen2: built on Blob Storage with a hierarchical namespace (real folders), folder-level access control (ACLs), and how data is organised in a data lake (bronze / silver / gold)
